@@ -9,7 +9,7 @@ app.use(express.json())
 
 mongoose
   .connect(
-    "mongodb+srv://test:test123@week04.thgujhs.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://hidden:hidden@week04.thgujhs.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
